@@ -2,6 +2,7 @@
 
 import pygame
 import tkinter
+from time import sleep
 from random import randint
 from tkinter import messagebox
 from timeit import default_timer as timer
@@ -617,5 +618,6 @@ while run :
 
 
 
-print('\n\nGOODBYE ...\n\n')
+print('\n\nGOODBYE ...')
 pygame.quit()
+sleep(1)
